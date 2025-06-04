@@ -7,7 +7,7 @@ import numpy as np
 # from model import SER_AlexNet, SER_AlexNet_GAP, SER_CNN
 # from models.ser_model import Ser_Model
 from models.ser_model import Ser_Model2
-from models.ser_model import Ser_Model
+# from models.ser_model import Ser_Model
 import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as f
