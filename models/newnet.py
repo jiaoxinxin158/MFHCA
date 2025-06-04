@@ -135,7 +135,7 @@ class MF(nn.Module):
 
     def __init__(self, zero_init_residual=False, groups=1, width_per_group=64, replace_stride_with_dilation=None,
                  norm_layer=None):
-        super(newnet4, self).__init__()
+        super(MF, self).__init__()
 
         # 改变通道数
         self.convc1 = nn.Conv2d(kernel_size=(3, 3), in_channels=16, out_channels=32, padding=1) 
